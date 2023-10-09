@@ -14,7 +14,7 @@ const directoryToTree = async (rootPath, maxDepth) => {
         children: [],
       };
 
-      if (maxDepth === 0) return tree;
+      if (maxDepth <= 0) return tree;
 
       for (const file of files) {
         file_path = path.resolve(dir, file);
