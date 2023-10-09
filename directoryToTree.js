@@ -43,6 +43,7 @@ const directoryToTree = async (rootPath, maxDepth) => {
       }
       return tree;
     } catch (ex) {
+      console.error(ex);
       return {};
     }
   };
