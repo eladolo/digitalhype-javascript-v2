@@ -1,0 +1,23 @@
+{
+  "name": "digitalhype-javacript--v2",
+  "version": "1.0.0",
+  "description": "Javascript v2 challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eladolo/digitalhype-javascriptv2.git"
+  },
+  "keywords": [
+    "digital",
+    "hype"
+  ],
+  "author": "Adolfer Valle Canales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eladolo/digitalhype-javascriptv2/issues"
+  },
+  "homepage": "https://github.com/eladolo/digitalhype-javascriptv2#readme"
+}
