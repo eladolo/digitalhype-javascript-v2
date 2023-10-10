@@ -1,6 +1,6 @@
 const path = require("path");
 const fs = require("fs").promises;
-const directoryToTree = async (rootPath, maxDepth) => {
+const directoryToTree = async (rootPath, maxDepth, debug = false) => {
   const recursor = async (tree, dir, dindex = 1) => {
     try {
       if (isNaN(maxDepth)) throw "Deep should be a number";
@@ -43,7 +43,7 @@ const directoryToTree = async (rootPath, maxDepth) => {
       }
       return tree;
     } catch (ex) {
-      console.error(ex);
+      if (debug) console.error(ex);
       return {};
     }
   };
