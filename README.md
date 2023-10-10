@@ -7,13 +7,13 @@
 
 **Example:**
 
-    node testapp dummy_folder 2
+    npm run app dummy_folder 2
 
 **Defaults**
 
 If the app runs without parameters it will use the defaults:  folder=`dummy_folder` and deep=`4`
 
-    node testapp
+    npm run app
 
 **Errors**
 
@@ -25,7 +25,7 @@ In case of an error or not finding the directory path, it will return an empty o
 
 If everything works as expected, you will have an echo in the console like this:
 
-    node testapp dummy_folder2 5
+    npm run app dummy_folder2 5
 
     {
         "name": "dummy_folder2",
@@ -156,3 +156,9 @@ If everything works as expected, you will have an echo in the console like this:
             }
         ]
     }
+
+**Unity testing**
+
+To run unity testing execute the following command:
+
+    npm run test

@@ -4,7 +4,8 @@
   "description": "Javascript v2 challenge",
   "main": "index.js",
   "scripts": {
-    "test": "node index.test.js"
+    "app": "clear; node testapp.js",
+    "test": "clear; node index.test.js"
   },
   "repository": {
     "type": "git",
